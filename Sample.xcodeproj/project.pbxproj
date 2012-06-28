@@ -15,6 +15,10 @@
 		59BA1C4D159C30FD00825A58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BA1C4C159C30FD00825A58 /* AppDelegate.m */; };
 		59BA1C50159C30FD00825A58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BA1C4F159C30FD00825A58 /* ViewController.m */; };
 		59BA1C53159C30FD00825A58 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59BA1C51159C30FD00825A58 /* ViewController.xib */; };
+		59BA1C5C159C317E00825A58 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BA1C5A159C317E00825A58 /* WebViewController.m */; };
+		59BA1C5D159C317E00825A58 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59BA1C5B159C317E00825A58 /* WebViewController.xib */; };
+		59BA1C5F159C336000825A58 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 59BA1C5E159C336000825A58 /* index.html */; };
+		59BA1C62159C361000825A58 /* jquery-1.7.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 59BA1C60159C35FC00825A58 /* jquery-1.7.2.min.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,20 @@
 		59BA1C3C159C30FD00825A58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		59BA1C3E159C30FD00825A58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		59BA1C40159C30FD00825A58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		59BA1C44159C30FD00825A58 /* Sample-Info.plist */ = {isa = PBXFileReference; path = "Sample-Info.plist"; sourceTree = "<group>"; };
+		59BA1C44159C30FD00825A58 /* Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sample-Info.plist"; sourceTree = "<group>"; };
 		59BA1C46159C30FD00825A58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59BA1C48159C30FD00825A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		59BA1C4A159C30FD00825A58 /* Sample-Prefix.pch */ = {isa = PBXFileReference; path = "Sample-Prefix.pch"; sourceTree = "<group>"; };
-		59BA1C4B159C30FD00825A58 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		59BA1C4A159C30FD00825A58 /* Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample-Prefix.pch"; sourceTree = "<group>"; };
+		59BA1C4B159C30FD00825A58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		59BA1C4C159C30FD00825A58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		59BA1C4E159C30FD00825A58 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		59BA1C4E159C30FD00825A58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		59BA1C4F159C30FD00825A58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		59BA1C52159C30FD00825A58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		59BA1C59159C317E00825A58 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		59BA1C5A159C317E00825A58 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		59BA1C5B159C317E00825A58 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		59BA1C5E159C336000825A58 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		59BA1C60159C35FC00825A58 /* jquery-1.7.2.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.7.2.min.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,11 @@
 				59BA1C4E159C30FD00825A58 /* ViewController.h */,
 				59BA1C4F159C30FD00825A58 /* ViewController.m */,
 				59BA1C51159C30FD00825A58 /* ViewController.xib */,
+				59BA1C59159C317E00825A58 /* WebViewController.h */,
+				59BA1C5A159C317E00825A58 /* WebViewController.m */,
+				59BA1C5B159C317E00825A58 /* WebViewController.xib */,
+				59BA1C60159C35FC00825A58 /* jquery-1.7.2.min.js */,
+				59BA1C5E159C336000825A58 /* index.html */,
 				59BA1C43159C30FD00825A58 /* Supporting Files */,
 			);
 			path = Sample;
@@ -148,8 +162,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59BA1C62159C361000825A58 /* jquery-1.7.2.min.js in Resources */,
 				59BA1C47159C30FD00825A58 /* InfoPlist.strings in Resources */,
 				59BA1C53159C30FD00825A58 /* ViewController.xib in Resources */,
+				59BA1C5D159C317E00825A58 /* WebViewController.xib in Resources */,
+				59BA1C5F159C336000825A58 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +180,7 @@
 				59BA1C49159C30FD00825A58 /* main.m in Sources */,
 				59BA1C4D159C30FD00825A58 /* AppDelegate.m in Sources */,
 				59BA1C50159C30FD00825A58 /* ViewController.m in Sources */,
+				59BA1C5C159C317E00825A58 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +292,7 @@
 				59BA1C58159C30FD00825A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

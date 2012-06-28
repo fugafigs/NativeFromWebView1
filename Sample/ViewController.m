@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WebViewController.h"
 
 @interface ViewController ()
 
@@ -31,4 +32,9 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)modal_tapped:(id)sender {
+    WebViewController *controller = [[ WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil ];
+    
+    [ self presentModalViewController:controller  animated:YES ];
+}
 @end

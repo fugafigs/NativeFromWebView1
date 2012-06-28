@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebViewController.h
 //  Sample
 //
 //  Created by 波切 賢一 on 12/06/28.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-- (IBAction)modal_tapped:(id)sender;
+@interface WebViewController : UIViewController<UIWebViewDelegate>
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @end
